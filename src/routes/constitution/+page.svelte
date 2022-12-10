@@ -508,11 +508,11 @@
                 <li>><u>Belästigung:</u> ... wiederholt eine andere Partei kontaktiert, obwohl diese Partei darum gebeten hat, dies zu unterlassen.</li>
                     <ol type="i">
                         <li>Es handelt sich um eine Verteidigung gegen diesen Belästigungsvorwurf, dass die Kontakte in Ton, Inhalt und Häufigkeit objektiv ver-nünftig und respektvoll waren.</li>
-                    </ol
+                    </ol>
                 <li>><u>Wettbewerbswidriges Verhalten:</u> ... die Absicht zeigt, nicht mehr am Spiel teilzunehmen, das über bloße Fahrlässigkeit hinausgeht.</li>
                     <ol type="i">
                         <li>Unter extremen Umständen kann eine wiederholte Weigerung, sich an angemessenen Trades zu beteiligen, als wettbewerbswidriges Verhal-ten angesehen werden.</li>
-                    </ol
+                    </ol>
                 <li>><u>Belästigung:</u> ... sich wiederholt über den Betrieb in der Liga in dem Maße beschwert, dass es auf eine Belästigung des Commissioners hinausläuft oder die Freude anderer deutlich verringert.</li>
                 <li>><u>Allgemein:</u> ... ein Verhalten zeigt, das nicht anderweitig durch diese Verfassung verboten ist, aber allgemein als beschissen anerkannt wird.</li>
             </ol>
@@ -530,10 +530,10 @@
                             <li>OUT, IR, SUP, PUP;</li>
                             <li>Bye-Week; </li>
                             <li>NFL-Free Agents</li>
-                        </ol
+                        </ol>
                  <li><b>Ungültiger Spieler auf IR</b> – Abzug der Durchschnittspunkte des Spielers/der Spieler über die Saison für diesen Spieltag.</li>
                  <li>Weitere Strafen können vom Commissioner im League Chat kommuniziert werden.</li>
-             </ol
+        </ol>
     </ol>
     
     <h3 bind:this={tenFive}>Schiedsrichter und Jurys</h3>
