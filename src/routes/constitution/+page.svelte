@@ -1,12 +1,15 @@
 <script>
     import { dues } from '$lib/utils/helper';
     let one;
-    let two, twoOne, twoTwo, twoThree;
-    let three, threeOne;
-    let four, fourOne, fourTwo;
-    let five, fiveOne;
+    let two, twoOne;
+    let three, threeOne, threeTwo, threeThree, threeFour, threeFive;
+    let four, fourOne, fourTwo, fourThree, fourFour, fourFive, fourSix;
+    let five, fiveOne, fiveTwo, fiveThree;
     let six, sixOne, sixTwo, sixThree;
-    let seven, sevenOne, sevenTwo, sevenThree;
+    let seven, sevenOne, sevenTwo;
+    let eight, eightOne, eightTwo, eightThree, eightFour;
+    let nine, nineOne, nineTwo, nineThree, nineFour;
+    let ten, tenOne, tenTwo, tenThree, thenFour, tenFive;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -96,66 +99,130 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">JEDEN VERDAMMTEN SONNTAG CONSTITUTION</h1>
+   <h1 class="noUnderscore">JEDEN VERDAMMTEN SONNTAG LEAGUE CONSTITUTION</h1>
     
-    <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
+    <h2 class="noUnderscore">INHALTSVERZEICHNIS</h2>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Roster</h3>
-        
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Drafting</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Artikel I: ENTSTEHUNG UND GÜLTIGKEIT DER CONSTITUTION</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 Draft Order</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Artikel II: BEGRIFFSDEFINITION</h3>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Scoring System</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>Zeit</h4>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Voting on Scoring System</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Artikel III: DER COMMISSIONER</h3>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Postseason</h3>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>Das Amt des Commissioners</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeTwo)}>Vorgeschriebene Strafen</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeThree)}>Commissioner soll die Autorität der Clubs nicht ersetzen</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeFour)}>Verfahren zur Überprüfung und/oder Aufhebung der Entscheidung des Commissioners</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeFive)}>Amtszeitbeschränkungen und Wahlen</h4>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Playoffs</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Artikel IV: CLUBS UND MANAGER</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>Gründung von Clubs und Ernennen von Managern</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>Abstimmungen in der Offseason</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourThree)}>Abstimmung in der Regular Saison</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourFour)}>Keine diskussionswürdige Änderung der Constitution während der Regular Saison</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourFive)}>Mindestanforderungen an die Abstimmungen</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourSix)}>Rückzug von Managern / Clubs</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Tanking Policy</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Artikel V: LEAGUE SETTINGS</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>Game Service and Format</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>Siege und Tiebreaker</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveThree)}>Transaktionsbeschränkungen</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Replacing Managers</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Artikel VI: JEDEN VERDAMMTEN SONNTAG SNAKE DRAFT</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>Ankündigung</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>Draft Order Determination</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>Regeln des Drafts</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: League Finances</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Artikel VII: FREE AGENCY, SALARY CAP UND ROSTER MANAGEMENT</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 League Dues</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>Free Agent Akquisition</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenTwo)}>Verantwortlichkeiten des Managers und Dienstplanmanagement</h4>
     
+     <h3 class="noUnderscore clickable" on:click={() => goToSection(eight)}>Artikel VIII: TRADES</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightOne)}>Regeln</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightTwo)}>Verbotene Trades</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightThree)}>Trade Deadline</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightFour)}>Auswirkungen der Zuwiderhandlung</h4>
+    
+     <h3 class="noUnderscore clickable" on:click={() => goToSection(nine)}>Artikel IX: PLAYOFFS</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineOne)}>Timing</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineTwo)}>Beteiligung</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineThree)}>Tiebreaker</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineFour)}>Auszeichnungen</h4>
+    
+     <h3 class="noUnderscore clickable" on:click={() => goToSection(ten)}>Artikel X: REGELVERSTÖßE</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(tenOne)}>Art der Straftaten</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(tenTwo)}>Einleitung eines Ordnungswidrigkeitenverfahrens</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(tenThree)}>Regelverstöße</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(tenFour)}>Strafen</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(tenFive)}>Schiedsrichter und Jurys</h4>
     
     <hr />
     
-    <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
+     <h2 class="sectionHeading" bind:this={one}>Artikel 1: ENTSTEHUNG UND GÜLTIGKEIT DER CONSTITUTION</h2>
+     <p>Diese Jeden Verdammten Sonntag Fantasy League Constitution stellt eine Vereinbarung zwischen den Managern dar. Von diesen akzeptiert jeder die Regeln und Rechte dieser Ver-einbarung und verpflichtet sich, alle Bedingungen zu akzeptieren und zu befolgen. Die Constitution bleibt auf unbestimmte Zeit in Kraft, mit der Ausnahme, dass die Bestimmungen von href="#threeOne">Artikel III, Abschnitt 2 außer Kraft treten, wenn der derzeitige Commissioner sein Amt niederlegt.</p>
     
- 
-    
-    
-    <h2 class="sectionHeading" bind:this={two}>Section 2 Drafting</h2>
-    
-    <h3 bind:this={twoOne}>2.1 Draft Order</h3>
-    <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
 
-    <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 3 round of drafting, with 5 minutes alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
-    <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
-    
-    <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
-    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
-    
-    <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
+     <h2 class="sectionHeading" bind:this={two}>Artikel II: BEGRIFFSDEFINITION</h2>
+     <dl>
+        <dt>„Message Board“</dt>
+        <dd>bezeichnet zugleich die WhatsApp Gruppe „Jeden verdammten Sonntag“ und das Sleeper-Message Board auf  https://sleeper.app/leagues/786635113353039872.</dd>
 
-    <h3 bind:this={threeOne}>3.1 Scoring System</h3>
+        <dt>„Club“</dt>
+        <dd>bezeichnet eine Fantasy Football Mannschaft, die gemäß dieser Verfassung gegründet wurde.</dd>
+
+        <dt>„Commissioner“</dt>
+        <dd>bezeichnet den Amtsinhaber und/oder das Amt des Commissi-oners der Liga.</dd>
+    
+        <dt>„Inaktiv“</dt>
+        <dd>bezeichnet den Zustand, in dem für einen bestimmten Zeitraum alle folgenden Aktionen außer Kraft gesetzt werden: (a) Adding oder Dropping von Spielern; b) Aufstellung eines vollständigen Lineups.</dd>
+    
+        <dt>„Manager“</dt>
+        <dd>bezeichnet einen am Fantasy Football teilnehmenden Spieler, der befugt ist, verbindliche Entscheidungen in Bezug auf einen Club zu treffen.</dd>
+    
+        <dt>„Bekanntmachung“</dt>
+        <dd>bezeichnet die Veröffentlichung auf den o.g. Message Boards. Nur ein Post auf einer dieser Plattformen dient als offizielle und ausreichende Benachrichtigung des Commissioners zu jeglichen Maßnahmen. Während informelle Methoden (münd-lich, im betrunkenen Zustand) bei der Beratung des Commissioners als wirksam angesehen werde können, darf kein Club ei-ne Entscheidung des Commissioners als bindend ansehen oder eine Beschwerde einreichen, die nicht offiziell in den Boards angekündigt wurde. </dd>
+    
+        <dt>„Regular Season“</dt>
+        <dd>bezeichnet den Zeitraum zwischen dem Tag, an dem das erste NFL-Football-Spiel in einem bestimmten Jahr ausgetragen wird, und dem Auflösen der „normalen“ Spiele.</dd>
+    
+        <dt>„Playoffs“</dt>
+        <dd>bezeichnet den Zeitraum zwischen dem letzten Regular Season Spiel und dem offiziellen Ende der Season.</dd>
+    
+        <dt>„Offseason“ </dt>
+        <dd>bezeichnet den Zeitraum zwischen dem Ende der Season und dem Tag, an dem das erste NFL-Football-Spiel in einem bestimmten Jahr ausgetragen wird.</dd>
+    </dl>
+
+    <h3 bind:this={TwoOne}>Zeit</h3>
+    <p>Bezieht sich diese Constitution auf eine „Week“, so wird damit entweder eine Spielwoche (z. B. von 19 Uhr an einem Dienstag bis 19 Uhr am folgenden Dienstag), oder bezieht sich im Zusammenhang mit einem Head-to-Head-Games auf den Zeitraum, der das Head-to-Head-Game zwischen zwei Gegnern umfasst, unabhängig von der Anzahl der tatsächlichen Tage innerhalb dieses Zeitraums. </p>
+    <p>Alle hier angewendeten Zeiten werden als Mitteleuropäische Zeit (MET) berechnet.</p>
+
+    
+    <h2 class="sectionHeading" bind:this={three}>Artikel III: DER COMMISSIONER</h2>
+
+    <h3 bind:this={threeOne}>Das Amt des Commissioners</h3>
+    <ol>
+        <li>Das Amt des Commissioners ist hiermit eingerichtet.</li>
+        <li>Zu den Aufgaben des Commissioners gehören:</li>
+            <ol type="a">
+                <li>als Verwaltungschef, Streitschlichter and (evtl. in Zukunft) als Finanzverwalter der Liga zu fungieren.</li>
+                <li>entweder auf Beschwerde oder auf eigene Initiative jede Handlung, Transaktion oder Praxis zu untersuchen, die beklagt oder verdächtigt wird, nicht im besten Interesse des Fantasy Footballs zu handeln, mit der Befugnis, die Clubs und Manager zu zwingen, auf offizielle Fragen des Commissioners zu reagieren, die zur Lösung erforderlich sind und nach Prüfung oder nach einer Ablehnung oder Nichtbefolgung solcher Ermahnungen, die im Folgenden vorgesehenen Sanktionen zu verhängen.</li>
+                <li>nach der Untersuchung festzustellen, welche Präventiv- oder Strafmaßnahmen unter den jeweiligen Umständen für die Handlung, Transaktion oder Praxis angemessen sind und gegebenenfalls Maßnahmen gegen Clubs, Manager oder andere Personen zu ergreifen.</li>
+                <li>die Person zu ernennen, die dem Amt des Commissioners offiziell beigeordnet ist, soweit dies nach alleinigem Ermessen des Commissioners erforderlich ist.</li>
+                <li>Überprüfung und Genehmigung der Keeper-Auswahl (evtl. in der Zukunft) und Transaktionen und Trades zwischen Clubs in Bezug auf Wettbewerbsgleichge-wicht, Einhalten von Absprachen oder anderen eingeschränkten Praktiken und im besten Interesse des Fantasy Footballs.</li>
+                <li>Entscheidungen zu treffen oder Personen zu ernennen, die Entscheidungen in Be-zug auf Regelauslegungen, Verwaltungsfunktionen, Finanztransaktionen oder Disziplinarmaßnahmen treffen, soweit dies erforderlich sein kann.</li>
+                <li>Alle Änderungen dieser Verfassung in Anhang B "Änderungshistorie" festzuhalten.</li>
+            </ol>
+    </ol>
+
     <p>The league scoring system breakdown is listed on the Sleeper fantasy app (for the most part, it follows typical .5PPR Scoring). The scoring system will never change without a majority league vote.</p>
     
     <h2 class="sectionHeading" bind:this={four}>Section 4 Postseason</h2>
