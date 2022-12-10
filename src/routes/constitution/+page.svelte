@@ -1,12 +1,15 @@
 <script>
     import { dues } from '$lib/utils/helper';
-    let one, oneOne, oneOneOne, oneTwo, oneTwoOne, oneTwoTwo, oneTwoThree, oneTwoFour, oneTwoFive, oneThree;
-    let two, twoOne, twoTwo, twoThree;
-    let three, threeOne;
-    let four, fourOne, fourTwo;
-    let five, fiveOne;
+    let one;
+    let two, twoOne;
+    let three, threeOne, threeTwo, threeThree, threeFour, threeFive;
+    let four, fourOne, fourTwo, fourThree, fourFour, fourFive, fourSix;
+    let five, fiveOne, fiveTwo, fiveThree;
     let six, sixOne, sixTwo, sixThree;
-    let seven, sevenOne, sevenTwo, sevenThree;
+    let seven, sevenOne, sevenTwo;
+    let eight, eightOne, eightTwo, eightThree, eightFour;
+    let nine, nineOne, nineTwo, nineThree, nineFour;
+    let ten, tenOne, tenTwo, tenThree, thenFour, tenFive;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
@@ -96,76 +99,77 @@
 </style>
 
 <div class="constitution">
-    <h1 class="noUnderscore">LEGENDS LEAGUE CONSTITUTION</h1>
+    <h1 class="noUnderscore">JEDEN VERDAMMTEN SONNTAG LEAGUE CONSTITUTION</h1>
     
-    <h2 class="noUnderscore">TABLE OF CONTENTS</h2>
+    <h2 class="noUnderscore">INHALTSVERZEICHNIS</h2>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Section 1: Roster</h3>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneOne)}>1.1 Positional Breakdown</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneOneOne)}>1.1.1 Position Maximums</h5>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneTwo)}>1.2 Trading</h4>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoOne)}>1.2.1 Trade Collusion</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoTwo)}>1.2.2 Lending Players Prohibition</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoThree)}>1.2.3 Trade Deadline</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFour)}>1.2.4 Trade Restrictions</h5>
-            <h5 class="noUnderscore clickable" on:click={() => goToSection(oneTwoFive)}>1.2.5 Veto/Trade Process</h5>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(oneThree)}>1.3 Waiver Wire</h4>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(one)}>Artikel I: ENTSTEHUNG UND GÜLTIGKEIT DER CONSTITUTION</h3>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Section 2: Drafting</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(two)}>Artikel II: BEGRIFFSDEFINITION</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>2.1 Draft Order</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoTwo)}>2.2 Rookie Drafts</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoThree)}>2.3 Draft Day Trades</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(twoOne)}>Zeit</h4>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Section 3: Scoring System</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(three)}>Artikel III: DER COMMISSIONER</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>3.1 Voting on Scoring System</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeOne)}>Das Amt des Commissioners</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeTwo)}>Vorgeschriebene Strafen</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeThree)}>Commissioner soll die Autorität der Clubs nicht ersetzen</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeFour)}>Verfahren zur Überprüfung und/oder Aufhebung der Entscheidung des Commissioners</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(threeFive)}>Amtszeitbeschränkungen und Wahlen</h4>
     
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Section 4: Postseason</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(four)}>Artikel IV: CLUBS UND MANAGER</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>4.1 Playoffs</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>4.2 Playoff Tiebreakers</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourOne)}>Gründung von Clubs und Ernennen von Managern</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourTwo)}>Abstimmungen in der Offseason</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourThree)}>Abstimmung in der Regular Saison</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourFour)}>Keine diskussionswürdige Änderung der Constitution während der Regular Saison</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourFive)}>Mindestanforderungen an die Abstimmungen</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fourSix)}>Rückzug von Managern / Clubs</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Section 5: Tanking Policy</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(five)}>Artikel V: LEAGUE SETTINGS</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>5.1 League Tanking Policy</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveOne)}>Game Service and Format</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveTwo)}>Siege und Tiebreaker</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(fiveThree)}>Transaktionsbeschränkungen</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Section 6: Replacing Managers</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(six)}>Artikel VI: JEDEN VERDAMMTEN SONNTAG SNAKE DRAFT</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>6.1 Removing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>6.2 Replacing Managers</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>6.3 Replacement Incentive</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixOne)}>Ankündigung</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>Draft Order Determination</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>Regeln des Drafts</h4>
 
-    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Section 7: League Finances</h3>
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(seven)}>Artikel VII: FREE AGENCY, SALARY CAP UND ROSTER MANAGEMENT</h3>
     
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>7.1 League Dues</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixTwo)}>7.2 Payout</h4>
-        <h4 class="noUnderscore clickable" on:click={() => goToSection(sixThree)}>7.3 Raising Dues</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenOne)}>Free Agent Akquisition</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(sevenTwo)}>Verantwortlichkeiten des Managers und Dienstplanmanagement</h4>
     
+     <h3 class="noUnderscore clickable" on:click={() => goToSection(eight)}>Artikel VIII: TRADES</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightOne)}>Regeln</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightTwo)}>Verbotene Trades</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightThree)}>Trade Deadline</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(eightFour)}>Auswirkungen der Zuwiderhandlung</h4>
+    
+     <h3 class="noUnderscore clickable" on:click={() => goToSection(nine)}>Artikel IX: PLAYOFFS</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineOne)}>Timing</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineTwo)}>Beteiligung</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineThree)}>Tiebreaker</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(nineFour)}>Auszeichnungen</h4>
+    
+     <h3 class="noUnderscore clickable" on:click={() => goToSection(ten)}>Artikel X: REGELVERSTÖßE</h3>
+    
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(tenOne)}>Art der Straftaten</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(tenTwo)}>Einleitung eines Ordnungswidrigkeitenverfahrens</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(tenThree)}>Regelverstöße</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(tenFour)}>Strafen</h4>
+        <h4 class="noUnderscore clickable" on:click={() => goToSection(tenFive)}>Schiedsrichter und Jurys</h4>
     
     <hr />
     
-    <h2 class="sectionHeading" bind:this={one}>Section 1 Roster Breakdown</h2>
+    <h2 class="sectionHeading" bind:this={one}>Artikel 1: ENTSTEHUNG UND GÜLTIGKEIT DER CONSTITUTION</h2>
     
-    <h3 class="subSectionHeading" bind:this={oneOne}>1.1 Positional Breakdown</h3>
-    
-    <p>28 Total Players</p>
-    
-    <p class="underscore">Starters</p>
-    <ul>
-        <li>QB</li>
-        <li>RB</li>
-        <li>RB</li>
-        <li>WR</li>
-        <li>WR</li>
-        <li>TE</li>
-        <li>FLEX (RB/WR/TE)</li>
-        <li>FLEX (RB/WR)</li>
-        <li>D/ST</li>
-        <li>K</li>
-    </ul>
-    
-    <p>18 Bench (Expanded by 5 between the keague draft and start of regular season)</p>
+    <p>Diese Jeden Verdammten Sonntag Fantasy League Constitution stellt eine Vereinbarung zwischen den Managern dar. Von diesen akzeptiert jeder die Regeln und Rechte dieser Ver-einbarung und verpflichtet sich, alle Bedingungen zu akzeptieren und zu befolgen. Die Constitution bleibt auf unbestimmte Zeit in Kraft, mit der Ausnahme, dass die Bestimmungen von href="#threeOne">Artikel III, Abschnitt 2 außer Kraft treten, wenn der derzeitige Commissioner sein Amt niederlegt.</p>
 
     <p>1 IR Spots (Player must be labeled as IR, Out, or Covid in the Sleeper App)</p>
     
