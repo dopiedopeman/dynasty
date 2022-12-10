@@ -174,7 +174,7 @@
     <hr />
     
      <h2 class="sectionHeading" bind:this={one}>Artikel 1: ENTSTEHUNG UND GÜLTIGKEIT DER CONSTITUTION</h2>
-     <p>Diese Jeden Verdammten Sonntag Fantasy League Constitution stellt eine Vereinbarung zwischen den Managern dar. Von diesen akzeptiert jeder die Regeln und Rechte dieser Vereinbarung und verpflichtet sich, alle Bedingungen zu akzeptieren und zu befolgen. Die Constitution bleibt auf unbestimmte Zeit in Kraft, mit der Ausnahme, dass die Bestimmungen von <h4 class="noUnderscore clickable" on:click={() => goToSection(threeTwo)}>Vorgeschriebene Strafen</h4> außer Kraft treten, wenn der derzeitige Commissioner sein Amt niederlegt.</p>
+     <p>Diese Jeden Verdammten Sonntag Fantasy League Constitution stellt eine Vereinbarung zwischen den Managern dar. Von diesen akzeptiert jeder die Regeln und Rechte dieser Vereinbarung und verpflichtet sich, alle Bedingungen zu akzeptieren und zu befolgen. Die Constitution bleibt auf unbestimmte Zeit in Kraft, mit der Ausnahme, dass die Bestimmungen von Artikel 3, Abschnitt 2 außer Kraft treten, wenn der derzeitige Commissioner sein Amt niederlegt.</p>
     
 
      <h2 class="sectionHeading" bind:this={two}>Artikel II: BEGRIFFSDEFINITION</h2>
