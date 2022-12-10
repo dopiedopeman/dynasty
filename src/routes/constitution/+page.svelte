@@ -10,7 +10,9 @@
     let eight, eightOne, eightTwo, eightThree, eightFour;
     let nine, nineOne, nineTwo, nineThree, nineFour;
     let ten, tenOne, tenTwo, tenThree, tenFour, tenFive;
-
+    let eleven;
+    let twelve;
+    
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
         window.scrollTo({left: 0, top, behavior: 'smooth'});
@@ -164,6 +166,10 @@
         <h4 class="noUnderscore clickable" on:click={() => goToSection(tenThree)}>Regelverstöße</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(tenFour)}>Strafen</h4>
         <h4 class="noUnderscore clickable" on:click={() => goToSection(tenFive)}>Schiedsrichter und Jurys</h4>
+    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(eleven)}>Anhang "A": FINANZEN</h3>
+    
+    <h3 class="noUnderscore clickable" on:click={() => goToSection(twelve)}>Anhang "B": VERSIONSHISTORIE</h3>
     
     <hr />
     
@@ -547,5 +553,46 @@
  <p>Auslegungshinweis: <i>Während der Commissioner der Streitbeilegungsbeauftragte der Liga ist, kann der Commissioner in seltenen Fällen beschließen, andere zur Beilegung von Streitigkeiten zu ernennen. Dies wird besonders – und vielleicht ausschließlich – nützlich sein, wenn der Commissioner einem Regelverstoß beschuldigt wird oder Opfer eines Regelverstoß wird; oder wenn er in der Entscheidung befangen ist. Zum Beispiel kann ein Commissioner einen neutralen externen Schiedsrichter ernennen, um zu bestimmen, welche Strafe, falls nötig, ein Manager erhalten soll, der einen anderen Manager belästigt; oder er kann eine kleine Jury ernennen, um festzustellen, ob der "Trash Talk" von jemandem beleidigend ge-nug ist, um als missbräuchlich zu gelten. Jury-Abstimmungen dürfen nicht geheim sein, so dass dem Commissioner nicht vorgeworfen werden kann, über das Ergebnis gelogen zu haben. Ebenso wenig sind Juryabstimmungen bindend, da der Commissioner vernünftigerweise feststellen kann, dass in einer Abstimmung genügend Vorbehalt gezeigt wurde, um eine Straftat zu begründen, oder er kann feststellen, dass es für jeden Manager unnötig oder un-erwünscht ist, sich einzubringen. (Wenn beispielsweise 40% der Jury der Meinung sind, dass der Kontakt eines Managers mit einem anderen Manager eine unangemessene Belästigung darstellt, könnte der Commissioner beschließen, diesen Manager mit einer milderen Strafe zu bestrafen, anstatt festzustellen, dass überhaupt keine Straftat vorliegt.)</i></p>                
  
  <p>VEREINBART mit diesem Tag, dem 23. September 2022.</p>               
-                 
+
+    
+  h2 class="sectionHeading" bind:this={eleven}>Anhang "A": FINANZEN</h2>  
+  
+  <p>TBA</p>
+
+
+  h2 class="sectionHeading" bind:this={twelve}>Anhang "B": VERSIONSHISTORIE</h2>  
+  
+  <table>
+  <tr>
+    <th>Anhang</th>
+    <th>Anhang Beschreibung</th>
+    <th>Verantwortlicher</th>
+    <th>Datum</th>
+  </tr>
+  <tr>
+    <td>01</td>
+    <td>Erstmalige Erstellung</td>
+    <td>Marcus</td>
+    <td>07.09.2019</td>
+  </tr>
+  <tr>
+    <td>02</td>
+    <td>Komplette Neuausrichtung mit Ergänzungen</td>
+    <td>Marcus</td>
+    <td>14.01.2022</td>
+  </tr>
+  <tr>
+    <td>03</td>
+    <td>Überarbeitung</td>
+    <td>Marcus/Chris</td>
+    <td>23.09.2022</td>
+  </tr>
+  <tr>
+    <td>04</td>
+    <td>Überarbeitung der Strafen</td>
+    <td>Marcus</td>
+    <td>06.12.2022</td>
+  </tr>
+</table>
+    
 </div>
