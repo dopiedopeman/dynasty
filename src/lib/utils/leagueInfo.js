@@ -109,8 +109,8 @@ export const managers = [
     //   "philosophy": "Your fantasy team's philosophy", // (optional)
     //   "tradingScale": 10, // 1 - 10 (optional)
     //   "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-{
+     },
+     {
        "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "biggmag",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -131,8 +131,8 @@ export const managers = [
     //   "philosophy": "Your fantasy team's philosophy", // (optional)
     //   "tradingScale": 10, // 1 - 10 (optional)
     //   "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-{
+     },
+     {
        "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "boesen",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -153,8 +153,8 @@ export const managers = [
     //   "philosophy": "Your fantasy team's philosophy", // (optional)
     //   "tradingScale": 10, // 1 - 10 (optional)
     //   "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-{
+     },
+     {
        "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "DaSaz",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -175,8 +175,8 @@ export const managers = [
     //   "philosophy": "Your fantasy team's philosophy", // (optional)
     //   "tradingScale": 10, // 1 - 10 (optional)
     //   "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-{
+     },
+     {
        "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "TeamBayPackers",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -197,8 +197,8 @@ export const managers = [
     //   "philosophy": "Your fantasy team's philosophy", // (optional)
     //   "tradingScale": 10, // 1 - 10 (optional)
     //   "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-{
+     },
+     {
        "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "lions50",
        "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -219,8 +219,8 @@ export const managers = [
     //   "philosophy": "Your fantasy team's philosophy", // (optional)
     //   "tradingScale": 10, // 1 - 10 (optional)
     //   "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-{
+     },
+     {
        "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "David247",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -241,8 +241,8 @@ export const managers = [
     //   "philosophy": "Your fantasy team's philosophy", // (optional)
     //   "tradingScale": 10, // 1 - 10 (optional)
     //   "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-{
+     },
+     {
        "roster": 11,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "SoGradSo",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -263,8 +263,8 @@ export const managers = [
     //   "philosophy": "Your fantasy team's philosophy", // (optional)
     //   "tradingScale": 10, // 1 - 10 (optional)
     //   "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
-{
+     },
+     {
        "roster": 12,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
        "name": "LosTigererntos",
        "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
@@ -285,7 +285,7 @@ export const managers = [
     //   "philosophy": "Your fantasy team's philosophy", // (optional)
     //   "tradingScale": 10, // 1 - 10 (optional)
     //   "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    // },
+     },
   ]
   
   
