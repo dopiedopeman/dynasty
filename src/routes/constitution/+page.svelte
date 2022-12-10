@@ -201,7 +201,7 @@
         <dd>bezeichnet den Zeitraum zwischen dem Ende der Season und dem Tag, an dem das erste NFL-Football-Spiel in einem bestimmten Jahr ausgetragen wird.</dd>
     </dl>
 
-    <h3 bind:this={TwoOne}>Zeit</h3>
+    <h3 bind:this={twoOne}>Zeit</h3>
     <p>Bezieht sich diese Constitution auf eine „Week“, so wird damit entweder eine Spielwoche (z. B. von 19 Uhr an einem Dienstag bis 19 Uhr am folgenden Dienstag), oder bezieht sich im Zusammenhang mit einem Head-to-Head-Games auf den Zeitraum, der das Head-to-Head-Game zwischen zwei Gegnern umfasst, unabhängig von der Anzahl der tatsächlichen Tage innerhalb dieses Zeitraums. </p>
     <p>Alle hier angewendeten Zeiten werden als Mitteleuropäische Zeit (MET) berechnet.</p>
 
