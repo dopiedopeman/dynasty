@@ -223,7 +223,7 @@
             </ol>
     </ol>
 
-    <h3 bind:this={ThreeTwo}>Vorgeschriebene Strafen</h3>
+    <h3 bind:this={threeTwo}>Vorgeschriebene Strafen</h3>
     <ol start="3">
         <li>Im Falle eines Verhaltens, das der Commissioner als nicht im besten Interesse der Liga oder des Fantasy Footballs erachtet, können Straf- oder Disziplinarmaßnahmen gegen Clubs oder Manager eine oder mehrere der folgenden Maßnahmen umfassen:</li>
             <ol type="a">
@@ -239,12 +239,12 @@
         <li>Entscheidungen des Commissioners, die Strafen für die Clubs enthalten, müssen formell in den Boards veröffentlicht werden.</li>
     </ol>
     
-    <h3 bind:this={ThreeThree}>Commissioner soll die Autorität der Clubs nicht ersetzen</h3>
+    <h3 bind:this={threeThree}>Commissioner soll die Autorität der Clubs nicht ersetzen</h3>
     <ol start="5">
          <li>Ungeachtet der Bestimmungen des vorstehenden Abschnitts 2 darf der Commissioner keine Maßnahmen ergreifen und keine Änderung dieser Verfassung oder Anpassung des Status quo in Bezug auf Angelegenheiten vornehmen, die eine Abstimmung der Clubs erfordern, wie in Artikel IV, Abschnitt 2 dargelegt.</li>
     </ol>
     
-    <h3 bind:this={ThreeFour}>Verfahren zur Überprüfung und/oder Aufhebung der Entscheidung des Commissioners</h3>
+    <h3 bind:this={threeFour}>Verfahren zur Überprüfung und/oder Aufhebung der Entscheidung des Commissioners</h3>
     <ol start="6">
          <li>Jede nach diesem Artikel ergriffene Maßnahme des Commissioners, unabhängig davon, ob sie ausdrücklich als "reviewable" bezeichnet wird oder nicht, kann nach folgendem Verfahren aufgehoben werden:</li>
             <ol type="a">
@@ -259,7 +259,7 @@
     <p><u>Auslegungsbemerkung:</u> <i>Zum Beispiel kann der Commissioner gemäß Artikel III, Abschnitt 3, Absatz f) entscheiden, dass Club X aufgrund von missbräuchlichem Verhalten (z.B. illegal Lineup) einen Punktabzug für den Spieltag erhält. Diese Entscheidung wird an einem Dienstag um 17:35 Uhr MET in den Message Boards veröffentlicht. Ein Drittel der Clubs (zu denen der ausführende Commissioner und der beteiligte Club nicht gehören, weil es sich um interessierte Partein handelt) beantragt beim Commissioner eine erneute Überprüfung oder eine erneute Abstimmung gemäß Artikel III, Abschnitt 6, Absatz b), und zwar vor Ablauf der Frist um 17:35 Uhr MET am folgenden Dienstag.</i></p>
     <p><i>Der Commissioner weigert sich, dies noch einmal zu überdenken, und daher findet eine Abstimmung statt. Mehr als zwei Drittel der Clubs stimmen dafür, dass die Entscheidung aufgehoben werden soll. Die Entscheidung des Commissioners ist damit offiziell aufgehoben. Der Commissioner entscheidet dann gemäß Artikel III, Abschnitt 3, Absatz d), dass der missbräuchliche Club stattdessen mit einer Absenkung der Waiver-Priority bestraft wird. Nur zwei Clubs beantragen eine Überprüfung dieser Entscheidung. Da dies eine unzureichende Anzahl ist, um einen gültigen Antrag zu bilden, hat diese Entscheidung bestand und der missbräuchliche Club wird darauf hin mit einer Absenkung der Waiver-Priority bestraft.</i></p>
     
-     <h3 bind:this={ThreeFive}>Amtszeitbeschränkungen und Wahlen</h3>
+     <h3 bind:this={threeFive}>Amtszeitbeschränkungen und Wahlen</h3>
      <ol start="7">
             <li>Der Commissioner übt sein Amt ohne Mindestdauer aus. Die Manager der Liga haben in jeder Offseason die Möglichkeit über einen neuen Commissioner abzustimmen.</li>
             <li>Die Wahl eines Commissioners erfolgt mit einfacher Mehrheit, und jeder Club hat eine (1) Stimme. Bei Stimmengleichheit findet mindestens einmal wöchentlich eine weitere Wahl statt, bis ein Commissioner gewählt ist.</li>
