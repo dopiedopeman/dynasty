@@ -555,12 +555,12 @@
  <p>VEREINBART mit diesem Tag, dem 23. September 2022.</p>               
 
     
-  h2 class="sectionHeading" bind:this={eleven}>Anhang "A": FINANZEN</h2>  
+  <h2 class="sectionHeading" bind:this={eleven}>Anhang "A": FINANZEN</h2>  
   
   <p>TBA</p>
 
 
-  h2 class="sectionHeading" bind:this={twelve}>Anhang "B": VERSIONSHISTORIE</h2>  
+  <h2 class="sectionHeading" bind:this={twelve}>Anhang "B": VERSIONSHISTORIE</h2>  
   
   <table>
   <tr>
