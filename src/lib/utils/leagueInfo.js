@@ -7,9 +7,13 @@ export const enableBlog = true; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VIT
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Eine eigene Website für unsere 12-Team Fantasy Liga.</p>
-  <p>Hier findet ihr Infos, Analysen und die Constitution.</p>
-  <p>Viel Spaß!</p>
+  <p>Gegründet im Jahre 2016 als eine 6-Team League mit den Gründungsmitgliedern Chris, Bö, Maggi, Ecki, Hembes und Marcus. Zuerst waren wir auf der Plattform ESPN vertreten. Dort spielten wir bis 2019, als schließlich der Wechsel auf die Plattform Sleeper vollzogen wurde.</p>
+  <p>Jedes Jahr wettstreiten die Manager um den begehrten Pokal unserer Liga zu erhalten und natürlich um den Toiletten-Pokal zu verhindern.</p>
+  <p>Im Jahr 2017 erweiterte sich die Liga durch die Aufnahme von Mehrfeld und Lars auf eine 8-Team League. Und direkt im Jahr 2018 durch die neuen Mitglieder David Schwarz und Nico auf eine 10-Team League.</p>
+  <p>Erst im Jahr 2021 wurden wir dann zu einer 12-Team League. Die neuen Manager waren Marten und Janosch. Leider verließ uns Lars nach dieser Saison und wir nahmen 2022 Manu in unsere Mitte auf. </p>
+  <p>Jedes Jahr wettstreiten die Manager um den begehrten Pokal unserer Liga zu erhalten und natürlich um den Toiletten-Pokal zu verhindern</p>
+  <p>Viele Manager begannen ihre Karriere mit überraschenden Siegen und Platzierungen, viele warten bis heute noch auf den große Coup. Viele Manager haben große Siege geholt, andere wirklich peinliche Punktausbeuten - häufig gezeichnet durch große Verletzungssorgen.</p>
+  <p>Aber man merkt jedem von uns an, dieses Spiel ernst zu nehmen und ein Teil seines Privatlebens dafür jeden Tag zu opfern.</p>
 `;
 
 /*   STEP 3   */
