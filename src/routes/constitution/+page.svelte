@@ -9,7 +9,7 @@
     let seven, sevenOne, sevenTwo;
     let eight, eightOne, eightTwo, eightThree, eightFour;
     let nine, nineOne, nineTwo, nineThree, nineFour;
-    let ten, tenOne, tenTwo, tenThree, thenFour, tenFive;
+    let ten, tenOne, tenTwo, tenThree, tenFour, tenFive;
 
     const goToSection = (section) => {
         const top = section.getBoundingClientRect().top + window.pageYOffset;
