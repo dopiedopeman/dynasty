@@ -61,7 +61,7 @@
 {:else}
     <div class="submitArea">
         <Button on:click={() => toggleShow()} variant="unelevated">
-            <Label>LSchreibe einen Kommentar</Label>
+            <Label>Schreibe einen Kommentar</Label>
         </Button>
     </div>
 {/if}
