@@ -6,7 +6,7 @@
 
     export let rosters, users, post, createdAt, id = null, direction = 1, home = false;
 
-    const lang = "en-US";
+    const lang = "de-DE";
 
     let loadingComments = true;
     let total, comments;
