@@ -25,24 +25,24 @@
 
 {#await upcomingDraftData }
 	<div class="loading">
-		<p>Retrieving upcoming draft...</p>
+		<p>Empfangen von Daten für den nächsten Draft...</p>
 		<br />
 		<LinearProgress indeterminate />
 	</div>
 {:then upcomingDraft }
-    <h4>Upcoming {upcomingDraft.year} Draft</h4>
+    <h4>Kommender {upcomingDraft.year} Draft</h4>
     <Draft draftData={upcomingDraft} />
 {:catch error}
 	<!-- promise was rejected -->
-	<p>Something went wrong: {error.message}</p>
+	<p>Etwas ist schiefgegangen: {error.message}</p>
 {/await}
 
 
 {#await previousDraftsData }
 	<hr />
-	<h4>Previous Drafts</h4>
+	<h4>Vergangene Drafts</h4>
 	<div class="loading">
-		<p>Retrieving previous drafts...</p>
+		<p>Empfange Daten vergangener Drafts...</p>
 		<br />
 		<LinearProgress indeterminate />
 	</div>
@@ -50,7 +50,7 @@
 	<!-- Don't display anything unless there are previous drafts -->
 	{#if previousDrafts.length}
 		<hr />
-		<h4>Previous Drafts</h4>
+		<h4>Vergangene Drafts</h4>
 		{#each previousDrafts as previousDraft}
 			<h6>{previousDraft.year} Draft</h6>
 			<Draft draftData={previousDraft} previous={true} />
@@ -58,5 +58,5 @@
 	{/if}
 {:catch error}
 	<!-- promise was rejected -->
-	<p>Something went wrong: {error.message}</p>
+	<p>Etwas ist schiefgegangen: {error.message}</p>
 {/await}
