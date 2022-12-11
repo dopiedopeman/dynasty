@@ -11,7 +11,7 @@
 
     let page = queryPage - 1;
 
-    const lang = "en-US";
+    const lang = "de-DE";
 
     let loading = true;
     let allPosts = [];
