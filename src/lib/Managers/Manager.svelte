@@ -235,7 +235,7 @@
             {#if viewManager.fantasyStart}
                 <!-- fantasyStart is an optional field -->
                 <span class="seperator">|</span>
-                <span class="infoChild">Playing ff since '{viewManager.fantasyStart.toString().substr(2)}</span>
+                <span class="infoChild">Spielt FF seit '{viewManager.fantasyStart.toString().substr(2)}</span>
             {/if}
             {#if viewManager.preferredContact}
                 <!-- preferredContact is an optional field -->
@@ -254,23 +254,23 @@
             <Group variant="outlined">
                 {#if manager == 0}
                     <Button disabled class="selectionButtons" on:click={() => changeManager(parseInt(manager) - 1, true)} variant="outlined">
-                        <Label>Previous Manager</Label>
+                        <Label>Vorheriger Manager</Label>
                     </Button>
                 {:else}
                     <Button class="selectionButtons" on:click={() => changeManager(parseInt(manager) - 1, true)} variant="outlined">
-                        <Label>Previous Manager</Label>
+                        <Label>Vorheriger Manager</Label>
                     </Button>
                 {/if}
                 <Button class="selectionButtons" on:click={() => goto('/managers')} variant="outlined">
-                    <Label>All Managers</Label>
+                    <Label>Alle Manager</Label>
                 </Button>
                 {#if manager == managers.length - 1}
                     <Button disabled class="selectionButtons" on:click={() => changeManager(parseInt(manager) + 1, true)} variant="outlined">
-                        <Label>Next Manager</Label>
+                        <Label>Nächster Manager</Label>
                     </Button>
                 {:else}
                     <Button class="selectionButtons" on:click={() => changeManager(parseInt(manager) + 1, true)} variant="outlined">
-                        <Label>Next Manager</Label>
+                        <Label>Nächster Manager</Label>
                     </Button>
                 {/if}
             </Group>
@@ -280,7 +280,7 @@
 
         {#if viewManager.philosophy}
             <!-- philosophy is an optional field -->
-            <h3>Team Philosophy</h3>
+            <h3>Team Philosophie</h3>
             <p class="philosophy">{@html viewManager.philosophy}</p>
         {/if}
     </div>
@@ -295,7 +295,7 @@
     {#if loading}
         <!-- promise is pending -->
         <div class="loading">
-            <p>Retrieving players...</p>
+            <p>Empfange Spieler...</p>
             <LinearProgress indeterminate />
         </div>
     {:else}
@@ -307,7 +307,7 @@
         {#if loading}
             <!-- promise is pending -->
             <div class="loading">
-                <p>Retrieving players...</p>
+                <p>Empfange Spieler...</p>
                 <LinearProgress indeterminate />
             </div>
         {:else}
@@ -319,23 +319,23 @@
         <Group variant="outlined">
             {#if manager == 0}
                 <Button disabled class="selectionButtons" on:click={() => changeManager(parseInt(manager) - 1)} variant="outlined">
-                    <Label>Previous Manager</Label>
+                    <Label>Vorheriger Manager</Label>
                 </Button>
             {:else}
                 <Button class="selectionButtons" on:click={() => changeManager(parseInt(manager) - 1)} variant="outlined">
-                    <Label>Previous Manager</Label>
+                    <Label>Vorheriger Manager</Label>
                 </Button>
             {/if}
             <Button class="selectionButtons" on:click={() => goto('/managers')} variant="outlined">
-                <Label>All Managers</Label>
+                <Label>Alle Manager</Label>
             </Button>
             {#if manager == managers.length - 1}
                 <Button disabled class="selectionButtons" on:click={() => changeManager(parseInt(manager) + 1)} variant="outlined">
-                    <Label>Next Manager</Label>
+                    <Label>Nächster Manager</Label>
                 </Button>
             {:else}
                 <Button class="selectionButtons" on:click={() => changeManager(parseInt(manager) + 1)} variant="outlined">
-                    <Label>Next Manager</Label>
+                    <Label>Nächster Manager</Label>
                 </Button>
             {/if}
         </Group>
