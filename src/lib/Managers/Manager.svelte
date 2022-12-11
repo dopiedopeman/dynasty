@@ -107,7 +107,7 @@
         text-align: center;
         font-size: 2.8em;
         margin: 1em 0 0em;
-        line-height: 1em;
+        line-height: 2em;
     }
 
     h3 {
@@ -227,7 +227,7 @@
         <img class="managerPhoto" src="{viewManager.photo}" alt="manager"/>
         <h2>
             {viewManager.name}
-            <div class="teamSub">{roster.co_owners ? 'Co-' : ''}Manager of <i>{user.metadata.team_name ? user.metadata.team_name : user.display_name}</i></div>
+            <div class="teamSub">{roster.co_owners ? 'Co-' : ''}Manager von <i>{user.metadata.team_name ? user.metadata.team_name : user.display_name}</i></div>
         </h2>
         
         <div class="basicInfo">
