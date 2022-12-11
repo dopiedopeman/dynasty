@@ -17,14 +17,14 @@
         const {comment, author} = e.detail;
         if(comment.trim() == "") {
             // handle error
-            errorMessage = 'Comment cannot be empty';
+            errorMessage = 'Kommentarfeld darf nicht leer sein!';
             open = true;
             return;
         }
         const validAuthor = validateID(author);
         if(!validAuthor) {
             // handle error
-            errorMessage = 'Unauthorized user';
+            errorMessage = 'Nicht berechtigter User;
             open = true;
             return;
         }
