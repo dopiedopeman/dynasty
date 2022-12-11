@@ -5,7 +5,7 @@
     import Dialog, { Title, Content, Actions } from '@smui/dialog';
     import Button, {Label} from "@smui/button";
 
-    const lang = "en-US";
+    const lang = "de-DE";
 
     export let comments, total, rosters, users, postID;
 
@@ -24,7 +24,7 @@
         const validAuthor = validateID(author);
         if(!validAuthor) {
             // handle error
-            errorMessage = 'Nicht berechtigter User;
+            errorMessage = 'Nicht berechtigter User';
             open = true;
             return;
         }
