@@ -46,11 +46,11 @@
 
 {#if showWrite}
     <div class="textBoxHolder">
-        <textarea autofocus bind:value={comment} label="Leave a comment..." class="commentTextBox"/>
+        <textarea autofocus bind:value={comment} label="Hinterlasse einen Kommentar ..." class="commentTextBox"/>
     </div>
 
     <div class="submitArea">
-        <Textfield class="shaped-outlined" variant="outlined"bind:value={author} label="Your Sleeper Username" />
+        <Textfield class="shaped-outlined" variant="outlined"bind:value={author} label="Dein Sleeper Username" />
         <Button on:click={() => submit()} variant="unelevated">
             <Label>Submit Comment</Label>
         </Button>
