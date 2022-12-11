@@ -4,7 +4,7 @@
     import Post from "./Post.svelte";
     import { getBlogPosts, getLeagueRosters, getLeagueUsers, waitForAll } from "$lib/utils/helper";
 
-    const lang = "en-US";
+    const lang = "de-DE";
 
     let post;
     let createdAt;
@@ -73,13 +73,13 @@
 {#if loading}
     <!-- promise is pending -->
     <div class="loading">
-        <p>Loading Blog Posts...</p>
+        <p>Lädt Blog Posts...</p>
         <LinearProgress indeterminate />
     </div>
 {:else}
     <h2>League Blog</h2>
     <Post {users} {rosters} {post} {createdAt} home={true} />
     <div class="center">
-        <a class="viewAll" href="/blog">View More Blog Posts</a>
+        <a class="viewAll" href="/blog">Zeige mehr Blog Posts</a>
     </div>
 {/if}
