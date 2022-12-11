@@ -46,22 +46,22 @@
 
 {#if showWrite}
     <div class="textBoxHolder">
-        <textarea autofocus bind:value={comment} label="Hinterlasse einen Kommentar ..." class="commentTextBox"/>
+        <textarea autofocus bind:value={comment} label="Schreibe einen Kommentar" class="commentTextBox"/>
     </div>
 
     <div class="submitArea">
         <Textfield class="shaped-outlined" variant="outlined"bind:value={author} label="Dein Sleeper Username" />
         <Button on:click={() => submit()} variant="unelevated">
-            <Label>Submit Comment</Label>
+            <Label>Kommentar abschicken</Label>
         </Button>
         <Button on:click={() => toggleShow()} color="secondary" variant="unelevated">
-            <Label>Cancel</Label>
+            <Label>Abbrechen</Label>
         </Button>
     </div>
 {:else}
     <div class="submitArea">
         <Button on:click={() => toggleShow()} variant="unelevated">
-            <Label>Leave a Comment</Label>
+            <Label>LSchreibe einen Kommentar</Label>
         </Button>
     </div>
 {/if}
