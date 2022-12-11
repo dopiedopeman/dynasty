@@ -130,7 +130,7 @@
 
 <div class="comments">
     <div class="commentHeader">
-        <Icon class="material-icons commentIcon">comment</Icon> Comments ({total})
+        <Icon class="material-icons commentIcon">comment</Icon> Kommentare ({total})
     </div>
     {#each comments as comment}
         <div class="comment">
