@@ -148,7 +148,7 @@
 
 {#if loading}
     <div class="loading" >
-        <p>Loading league blog posts...</p>
+        <p>Lädt League Blog Posts...</p>
         <LinearProgress indeterminate />
     </div>
 {:else}
