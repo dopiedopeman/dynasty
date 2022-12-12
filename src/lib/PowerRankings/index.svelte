@@ -26,7 +26,7 @@
 {#await helperPromises}
     <!-- promise is pending -->
     <div class="loading">
-        <p>Calculating power rankings...</p>
+        <p>Berechne Powerrankings...</p>
         <LinearProgress indeterminate />
     </div>
 {:then [nflState, rostersData, users, records, leagueData, playersInfo]}
@@ -35,7 +35,7 @@
     {/if}
 {:catch error}
 	<!-- promise was rejected -->
-	<p>Something went wrong: {error.message}</p>
+	<p>Etwas ist schief gelaufen: {error.message}</p>
 {/await}
 
 
