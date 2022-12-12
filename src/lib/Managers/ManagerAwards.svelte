@@ -334,10 +334,10 @@
                 {/if}
             </div>
         {:else}
-            <p class="sad">...nothing yet</p>
+            <p class="sad">...hier gibts noch nix</p>
         {/each}
     </div>
     {#if formerGlobal}
-        <p class="disclaimer">*Awarded under a previous manager</p>
+        <p class="disclaimer">*Trophäe ging an einen früheren Manager</p>
     {/if}
 </div>
