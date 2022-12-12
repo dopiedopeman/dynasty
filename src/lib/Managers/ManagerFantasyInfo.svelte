@@ -197,7 +197,7 @@
     {#if viewManager.valuePosition}
         <div class="infoSlot">
             <div class="infoLabel">
-                Favorite Fantasy Asset
+                Lieblings Position
             </div>
             <div class="infoIcon {viewManager.valuePosition}">
                 <span class="valuePosition">{viewManager.valuePosition}</span>
@@ -208,7 +208,7 @@
         <!-- Trading Scale -->
         <div class="infoSlot">
             <div class="infoLabel">
-                Desire to Trade
+                Bock zum Traden
             </div>
             <div class="infoIcon">
                 <span class="tradingScale">{viewManager.tradingScale}</span>
@@ -222,7 +222,7 @@
     {#if viewManager.favoritePlayer}
         <div class="infoSlot">
             <div class="infoLabel">
-                Favorite Player
+                Lieblingsspieler
             </div>
             <div class="infoIcon playerIcon">
                 <img class="favoritePlayer" src="https://sleepercdn.com/content/nfl/players/{viewManager.favoritePlayer}.jpg" alt="favorite player"/>
@@ -249,7 +249,7 @@
     <!-- Rival -->
     <div class="infoSlot infoRival" on:click={() => gotoRival(viewManager.rival.link)}>
         <div class="infoLabel">
-            Rival
+            Rivale
         </div>
         <div class="infoIcon">
             <img class="rival" src="{viewManager.rival.image}" alt="rival"/>
