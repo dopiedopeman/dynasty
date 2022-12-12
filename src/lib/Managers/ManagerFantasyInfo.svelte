@@ -183,7 +183,7 @@
     {#if viewManager.rookieOrVets}
         <div class="infoSlot">
             <div class="infoLabel">
-                Rookie or Vet Preference
+                Rookie oder Vet Vorliebe
             </div>
             <div class="infoIcon">
                 <img class="rookiesOrVets" src="/{viewManager.rookieOrVets}.png" alt="rookie or vet preference"/>
