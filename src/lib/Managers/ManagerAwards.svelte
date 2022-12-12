@@ -320,7 +320,7 @@
 </style>
 
 <div class="awardsCase">
-    <h3>Team Awards & Records</h3>
+    <h3>Team Trophäen & Recorde</h3>
     <div class="awardsCaseInner">
         {#each displayAwards as award}
             <div class="award">
